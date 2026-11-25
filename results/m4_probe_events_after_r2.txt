@@ -1,0 +1,20 @@
+    Restart Count:  2
+    Liveness:   http-get http://:3000/health delay=60s timeout=1s period=10s #success=1 #failure=6
+    Readiness:  http-get http://:3000/health delay=5s timeout=1s period=5s #success=1 #failure=3
+  Warning  Unhealthy       5h37m (x7 over 5h39m)   kubelet  Liveness probe failed: Get "http://10.244.0.43:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       5h37m (x18 over 5h39m)  kubelet  Readiness probe failed: Get "http://10.244.0.43:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       27m                     kubelet  Readiness probe failed: Get "http://10.244.0.9:3000/health": dial tcp 10.244.0.9:3000: connect: connection refused
+  Warning  Unhealthy       25m (x4 over 26m)       kubelet  Liveness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       25m (x19 over 26m)      kubelet  Readiness probe failed: HTTP probe failed with statuscode: 503
+  Normal   Killing         25m                     kubelet  Container emi-web failed liveness probe, will be restarted
+  Warning  Unhealthy       10m                     kubelet  Liveness probe failed: Get "http://10.244.0.9:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       7m1s (x37 over 26m)     kubelet  Readiness probe failed: Get "http://10.244.0.9:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+    Restart Count:  3
+    Liveness:   http-get http://:3000/health delay=60s timeout=1s period=10s #success=1 #failure=6
+    Readiness:  http-get http://:3000/health delay=5s timeout=1s period=5s #success=1 #failure=3
+  Warning  Unhealthy       27m                  kubelet            Readiness probe failed: Get "http://10.244.0.6:3000/health": dial tcp 10.244.0.6:3000: connect: connection refused
+  Warning  Unhealthy       25m (x4 over 26m)    kubelet            Liveness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       25m (x19 over 26m)   kubelet            Readiness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       10m                  kubelet            Liveness probe failed: Get "http://10.244.0.6:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       10m (x3 over 26m)    kubelet            Readiness probe failed: Get "http://10.244.0.6:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Normal   Killing         9m32s (x2 over 25m)  kubelet            Container emi-web failed liveness probe, will be restarted

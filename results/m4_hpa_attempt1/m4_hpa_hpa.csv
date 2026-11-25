@@ -1,0 +1,22 @@
+timestamp,hpa_line
+1795620341.258,emi-web   Deployment/emi-web   cpu: 9%/50%   1     5     1     2m25s
+1795620356.436,emi-web   Deployment/emi-web   cpu: 9%/50%   1     5     1     2m40s
+1795620371.335,emi-web   Deployment/emi-web   cpu: 9%/50%   1     5     1     2m55s
+1795620386.362,emi-web   Deployment/emi-web   cpu: 9%/50%   1     5     1     3m10s
+1795620401.437,emi-web   Deployment/emi-web   cpu: 55%/50%   1     5     1     3m25s
+1795620416.395,emi-web   Deployment/emi-web   cpu: 55%/50%   1     5     1     3m40s
+1795620431.394,emi-web   Deployment/emi-web   cpu: 55%/50%   1     5     1     3m55s
+1795620446.393,emi-web   Deployment/emi-web   cpu: 55%/50%   1     5     1     4m10s
+1795620461.303,emi-web   Deployment/emi-web   cpu: 86%/50%   1     5     1     4m25s
+1795620476.396,emi-web   Deployment/emi-web   cpu: 86%/50%   1     5     2     4m40s
+1795620491.279,emi-web   Deployment/emi-web   cpu: 86%/50%   1     5     2     4m55s
+1795620506.441,emi-web   Deployment/emi-web   cpu: 155%/50%   1     5     2     5m11s
+1795620521.341,emi-web   Deployment/emi-web   cpu: 155%/50%   1     5     2     5m25s
+1795620536.408,emi-web   Deployment/emi-web   cpu: 155%/50%   1     5     4     5m41s
+1795620551.421,emi-web   Deployment/emi-web   cpu: 155%/50%   1     5     4     5m56s
+1795620566.334,emi-web   Deployment/emi-web   cpu: 155%/50%   1     5     4     6m25s
+1795620581.296,emi-web   Deployment/emi-web   cpu: 155%/50%   1     5     4     6m31s
+1795620596.394,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     4     6m45s
+1795620611.258,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     4     7m7s
+1795620626.270,"ERROR Command '['kubectl', 'get', 'hpa', 'emi-web', '-n', 'emi', '--no-headers']' timed out after 20 seconds"
+1795621238.729,

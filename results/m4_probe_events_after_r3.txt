@@ -1,0 +1,17 @@
+    Restart Count:  3
+  Warning  Unhealthy       5h52m (x7 over 5h54m)   kubelet  Liveness probe failed: Get "http://10.244.0.43:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       5h52m (x18 over 5h54m)  kubelet  Readiness probe failed: Get "http://10.244.0.43:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       42m                     kubelet  Readiness probe failed: Get "http://10.244.0.9:3000/health": dial tcp 10.244.0.9:3000: connect: connection refused
+  Warning  Unhealthy       40m (x4 over 41m)       kubelet  Liveness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       40m (x19 over 42m)      kubelet  Readiness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       8m48s (x39 over 42m)    kubelet  Readiness probe failed: Get "http://10.244.0.9:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       7m24s (x17 over 25m)    kubelet  Liveness probe failed: Get "http://10.244.0.9:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+    Restart Count:  3
+  Warning  Unhealthy       42m                   kubelet            Readiness probe failed: Get "http://10.244.0.6:3000/health": dial tcp 10.244.0.6:3000: connect: connection refused
+  Warning  Unhealthy       40m (x4 over 41m)     kubelet            Liveness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       40m (x19 over 42m)    kubelet            Readiness probe failed: HTTP probe failed with statuscode: 503
+  Warning  Unhealthy       8m47s (x38 over 42m)  kubelet            Readiness probe failed: Get "http://10.244.0.6:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy       7m25s (x18 over 25m)  kubelet            Liveness probe failed: Get "http://10.244.0.6:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+    Restart Count:  0
+  Warning  Unhealthy  7m25s (x17 over 9m10s)  kubelet            Readiness probe failed: Get "http://10.244.0.11:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy  7m22s (x8 over 9m12s)   kubelet            Liveness probe failed: Get "http://10.244.0.11:3000/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)

@@ -1,0 +1,62 @@
+timestamp,hpa_line
+1795624357.117,emi-web   Deployment/emi-web   cpu: 6%/50%   1     5     1     69m
+1795624372.145,emi-web   Deployment/emi-web   cpu: 6%/50%   1     5     1     69m
+1795624387.121,emi-web   Deployment/emi-web   cpu: 6%/50%   1     5     1     69m
+1795624402.133,emi-web   Deployment/emi-web   cpu: 18%/50%   1     5     1     70m
+1795624417.130,emi-web   Deployment/emi-web   cpu: 18%/50%   1     5     1     70m
+1795624432.318,emi-web   Deployment/emi-web   cpu: 18%/50%   1     5     1     70m
+1795624447.287,emi-web   Deployment/emi-web   cpu: 18%/50%   1     5     1     70m
+1795624462.117,emi-web   Deployment/emi-web   cpu: 46%/50%   1     5     1     71m
+1795624477.292,emi-web   Deployment/emi-web   cpu: 46%/50%   1     5     1     71m
+1795624492.209,emi-web   Deployment/emi-web   cpu: 46%/50%   1     5     1     71m
+1795624507.184,emi-web   Deployment/emi-web   cpu: 46%/50%   1     5     1     71m
+1795624522.230,emi-web   Deployment/emi-web   cpu: 92%/50%   1     5     1     72m
+1795624537.241,emi-web   Deployment/emi-web   cpu: 92%/50%   1     5     2     72m
+1795624552.306,emi-web   Deployment/emi-web   cpu: 92%/50%   1     5     2     72m
+1795624567.255,emi-web   Deployment/emi-web   cpu: 92%/50%   1     5     2     73m
+1795624582.272,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     73m
+1795624597.297,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     73m
+1795624612.263,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     73m
+1795624627.248,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     73m
+1795624642.178,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     74m
+1795624660.617,
+1795624672.272,
+1795624687.302,
+1795624702.123,
+1795624717.266,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     75m
+1795624732.289,"ERROR Command '['kubectl', 'get', 'hpa', 'emi-web', '-n', 'emi', '--no-headers']' timed out after 20 seconds"
+1795624752.317,
+1795624762.621,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     76m
+1795624777.151,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     76m
+1795624792.240,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     76m
+1795624807.311,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     76m
+1795624822.201,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     77m
+1795624837.118,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     77m
+1795624852.310,
+1795624867.149,
+1795624882.232,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     78m
+1795624897.187,
+1795624912.219,
+1795624927.260,
+1795624942.135,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     79m
+1795624957.256,
+1795624972.148,
+1795624987.205,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     79m
+1795625002.275,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     80m
+1795625017.304,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     80m
+1795625032.258,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     80m
+1795625047.134,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     80m
+1795625062.221,emi-web   Deployment/emi-web   cpu: <unknown>/50%   1     5     2     81m
+1795625077.160,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     2     81m
+1795625092.287,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     81m
+1795625107.158,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     81m
+1795625122.176,emi-web   Deployment/emi-web   cpu: 12%/50%   1     5     1     82m
+1795625137.214,emi-web   Deployment/emi-web   cpu: 12%/50%   1     5     1     82m
+1795625152.142,emi-web   Deployment/emi-web   cpu: 12%/50%   1     5     1     82m
+1795625167.159,emi-web   Deployment/emi-web   cpu: 12%/50%   1     5     1     82m
+1795625182.216,emi-web   Deployment/emi-web   cpu: 12%/50%   1     5     1     83m
+1795625197.243,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     83m
+1795625212.303,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     83m
+1795625227.153,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     83m
+1795625242.163,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     84m
+1795625257.174,emi-web   Deployment/emi-web   cpu: 8%/50%   1     5     1     84m
